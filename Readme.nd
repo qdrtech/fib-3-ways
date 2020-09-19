@@ -1,0 +1,25 @@
+# Fibonacci  3 Ways
+
+
+## Regular Implementation
+This implementation focuses on executing Fibonacci  without considerations towards efficiency.
+Basically processing fib(n) = f(n-1) + f(n-2);
+
+Complexit: O(2^n)
+
+## Memoized Implementation
+This implementation focuses on saving time complexity by leveraging dynamic programming
+It still performs regular Fibonacci  fib(n) = f(n-1) + f(n-2), however it increases space
+complexity in-order to save time complexity. Precomputed values are stored in a dictionary
+and used as constant retrieval when later used in the call stack; 
+
+Complexity: O(n)
+
+
+## Bottom Up Fibonacci 
+This implementation uses constant space and computes fib(n) by leveraging fib(0) & fib(1)
+to precompute future iterations. It leverages the fact that fib(n) = fib(n-1) + fib(n-2) to
+compute fib(n). Aside from being linear time it also saves space on the call stack and allows
+for faster execution and execution of larger data sets
+
+Complexity: O(n)
