@@ -1,6 +1,5 @@
 # Fibonacci  3 Ways
 
-
 ## Regular Implementation
 This implementation focuses on executing Fibonacci  without considerations towards efficiency.
 Basically processing fib(n) = f(n-1) + f(n-2);
@@ -14,7 +13,6 @@ complexity in-order to save time complexity. Precomputed values are stored in a 
 and used as constant retrieval when later used in the call stack; 
 
 Complexity: O(n)
-
 
 ## Bottom Up Fibonacci 
 This implementation uses constant space and computes fib(n) by leveraging fib(0) & fib(1)
